@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 export const children = [
   {
-    path: '/blog',
+    path: '/blog/blog',
     name: 'blog',
     component: () => import('@/pages/blog')
   },
